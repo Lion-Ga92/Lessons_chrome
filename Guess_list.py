@@ -32,3 +32,31 @@ for x in guests:
 
 # ^^^^^^^^^^^^^^^^^^^^^^^^
 # YAY MY FIRST LOOP AFTER MY HOSPITAL STAY!!!!
+
+remove_1 = guests.pop()
+
+print(f"hello {remove_1} i regret to cancel")
+
+remove_2 = guests.pop()
+
+print(f"hello {remove_2} i regret to cancel")
+
+remove_3 = guests.pop()
+
+print(f"hello {remove_3} i regret to cancel")
+
+remove_4 = guests.pop()
+
+print(f"hello {remove_4} i regret to cancel")
+
+print(guests)
+
+for x in guests:
+    print(f"Hello {x}")
+
+del guests[0]
+
+del guests[0]
+
+print(guests)
+
